@@ -1,5 +1,16 @@
 
 Some codereview stuff with git
+==============================
 
-for license see COPYING
+  * You can generate two-sided diff from a git repo
+  * for license see COPYING
+
+  * If there is 'staged' files in the repo, the diff generated from 'staged' vs HEAD
+  * If there is no staged files, the diff generated fomr HEAD^ vs HEAD
+
+
+git-codereview.sh needs codediff.py from this project:
+http://code.google.com/p/coderev/
+
+
 
